@@ -1,14 +1,14 @@
-README for Kopi Lua 0.1 (Alpha)
+README for KopiLua 1.1
 
-* What is Kopi Lua?
+* What is KopiLua?
  ------------
- Kopi Lua is a C# port of the Lua v.5.1.4 virtual machine, parser, libraries and 
+ Kopi Lua was originally a C# port of the Lua v.5.1.4 virtual machine, parser, libraries and 
  command-line utilities.
  It has been updated to Lua 5.1.5 on 9/27/12 by Elijah Frederickson.
    
 * Availability
  ------------
- Like Lua, Kopi Lua is freely available for both academic and commercial
+ Like Lua, KopiLua is freely available for both academic and commercial
  purposes. The COPYRIGHT file contains the license details as well as
  links to sites containing specific information with regards to the
  licensing terms.

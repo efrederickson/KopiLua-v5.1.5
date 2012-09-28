@@ -123,6 +123,6 @@
   </Target>
   -->
   <PropertyGroup>
-    <PostBuildEvent>copy $(TargetFileName) ..\..\Compiled</PostBuildEvent>
+    <PostBuildEvent></PostBuildEvent>
   </PropertyGroup>
 </Project>
