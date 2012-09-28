@@ -1,0 +1,29 @@
+README for Kopi Lua 0.1 (Alpha)
+
+* What is Kopi Lua?
+ ------------
+ Kopi Lua is a C# port of the Lua v.5.1.4 virtual machine, parser, libraries and 
+ command-line utilities.
+ It has been updated to Lua 5.1.5 on 9/27/12 by Elijah Frederickson.
+   
+* Availability
+ ------------
+ Like Lua, Kopi Lua is freely available for both academic and commercial
+ purposes. The COPYRIGHT file contains the license details as well as
+ links to sites containing specific information with regards to the
+ licensing terms.
+  
+ * Installation
+ --------------
+ Kopi Lua is implemented in C# and has been tested on Microsoft Visual Studio 2012 
+ Professional. In order for Kopi Lua to successfully compile the following
+ conditional compilation symbols must be defined in the project settings:
+  
+ LUA_CORE;_WIN32;LUA_COMPAT_VARARG;LUA_COMPAT_MOD;LUA_COMPAT_GFIND;CATCH_EXCEPTIONS
+  
+ * Contact/Bug Reports etc
+ -------------------------
+ Please report all bugs and issues to Elijah Frederickson/mlnlover11 (mailto:elijah.frederickson@gmail.com)
+ (Old: Please report all bugs and issues to Mark Feldman (mailto:lua@ppl-pilot.com))
+
+(end of README)
