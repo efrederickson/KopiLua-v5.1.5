@@ -534,7 +534,7 @@ namespace KopiLua
 		*/
 		public const string LUA_NUMBER_SCAN = "%lf";
 		public const string LUA_NUMBER_FMT = "%.14g";
-		public static CharPtr lua_number2str(double n) { return String.Format("{0}", n); }
+		public static CharPtr lua_number2str(double n) { return String.Format(CultureInfo.InvariantCulture, "{0}", n); }
 		public const int LUAI_MAXNUMBER2STR = 32; /* 16 digits, sign, point, and \0 */
 
 		private const string number_chars = "0123456789+-eE.";

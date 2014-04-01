@@ -1,8 +1,10 @@
 #region Usings
 using System;
+using System.Globalization;
 using System.IO;
 using System.Text;
 using System.Text.RegularExpressions;
+
 #endregion
 
 namespace AT.MIN
@@ -662,7 +664,7 @@ namespace AT.MIN
 
 			if ( IsNumericType( Value ) )
 			{
-				w = String.Format( numberFormat, Value );
+				w = String.Format(CultureInfo.InvariantCulture, numberFormat, Value );
 
 				if ( Left2Right || Padding == ' ' )
 				{
