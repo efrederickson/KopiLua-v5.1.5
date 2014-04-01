@@ -471,7 +471,7 @@ namespace KopiLua
             open_func(lexstate, funcstate);
             funcstate.f.is_vararg = VARARG_ISVARARG;  /* main func. is always vararg */
             luaX_next(lexstate);  /* read first token */
-            System.Threading.Thread.CurrentThread.CurrentCulture = System.Globalization.CultureInfo.InvariantCulture;
+            //System.Threading.Thread.CurrentThread.CurrentCulture = System.Globalization.CultureInfo.InvariantCulture;
             chunk(lexstate);
             check(lexstate, (int)RESERVED.TK_EOS);
             close_func(lexstate);
