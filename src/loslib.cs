@@ -144,7 +144,7 @@ namespace KopiLua
 
 
 		private static int os_date (lua_State L) {
-		  CharPtr s = luaL_optstring(L, 1, "%c");
+		  CharPtr s = new CharPtr(luaL_optstring(L, 1, "%c"));
 		  DateTime stm;
 		  if (s[0] == '!') {  /* UTC? */
 			stm = DateTime.UtcNow;
